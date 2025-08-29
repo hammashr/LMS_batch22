@@ -23,7 +23,7 @@
                 .then(students => {
                     console.log(students);
                     if(students.length > 0) {
-                        let table = `<table class="border w-full">
+                        let table = `<table class="border w-full text-center">
                             <thead>
                                 <tr>
                                     <th class="border px-2">#</th>
